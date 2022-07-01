@@ -1,0 +1,381 @@
+@charset  "utf-8";
+body{
+    
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .menu{
+        display: flex;
+        width: 100vw;
+        background-color: #1ABCA0;
+        height: 70px;
+        justify-content: center;
+        color: #FFF;
+        
+
+    }
+    
+    .menu h1{
+        font-size: 30px;
+    }
+    .menu img{
+        width: 36px;
+        height: 36px;
+        margin-top: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    #menu-area{
+        width: 100vw;
+        height: 0px;
+        display: flex;
+        justify-content: center;
+        background-color:#ccc;
+        transition: all ease .5s
+
+    }
+    #menu-area  li{
+        display: block;
+        list-style: none;
+        font-size: 20px;
+        line-height: 35px;
+        color: #FFF;
+        cursor: pointer;
+      
+        
+    }
+    #menu-area  li:hover{
+        background-color:#FFF;
+        color: #CCC;
+        text-align: center;
+    }
+    .area1{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 800px;
+        background-color: ;
+    }
+    .fom{
+        width: 100vw;
+        height: 400px;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #1ABCA0;
+        
+    }
+    .fom fieldset{
+        cursor: pointer;
+        font-size: 20px;
+        color: #FFF;
+        background-color: #CCC;
+    }
+    input{
+display: block;
+margin: auto;
+        
+        width: 250px;
+        height: 25px;
+    }
+    input::placeholder{
+        text-align: center;
+        color: #1ABCA0;
+    }
+    label{
+        color: #FFF;
+        font-size: 20px;
+    }
+    button{
+        width: 200px;
+        padding: 5px;
+        font-size: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: #1877F2;
+        color: #FFF;
+        border-radius: 10px;
+    
+}
+.area2{
+    width: 100vw;
+    height: 250px;
+    background-color: #1877F2;
+    color: #FFF;
+}
+.area2 h1{
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    border-bottom: 1px solid #CCC;
+
+    
+}
+.area2 p{
+    padding: 0px 15px 0px 20px;
+    border-bottom: 1px solid #CCC;
+   
+    
+}
+.area3{
+    width: 100vw;
+    height: 150px;
+    background-color: #1877F2;
+   
+}
+.area3 h2{
+    text-align: center;
+    color: #FFF;
+    border-bottom:
+}
+.cursos{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    background-color: #1ABCA0;
+    flex-direction: column;
+}
+.cursos h2{
+    text-align: center;
+    color: #FFF;
+   
+}
+.list-group{
+    text-align: ;
+    background-color: #1ABCA0;
+    
+
+}
+li{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+li:hover{
+    
+    background-color: #FFF
+    ;color: #1ABCA0;
+    
+    
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    height: 100px;
+
+}
+.icones svg{
+   cursor: pointer;
+   padding: 20px;
+}
+}
+
+@media screen and (min-width: 1001px){
+    body{
+    
+        overflow-x: hidden;
+    }
+    .menu{
+        display: flex;
+        width: 100vw;
+        background-color: #1ABCA0;
+        height: 70px;
+        color: #FFF;
+
+        
+}
+.menu h1{
+    font-size: 40px;
+    margin-left: 10px;
+    
+    
+    
+}
+.menu img{
+   
+    width: 36px;
+    height: 36px;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-left: 1100px;
+
+    
+}
+#menu-area{
+    width: 100vw;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    background-color:#ccc;
+    transition: all ease .5s
+
+
+
+}
+#menu-area  li{
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFF;
+    cursor: pointer;
+
+}
+#menu-area  li:hover{
+    background-color:#FFF;
+    color: #CCC;
+    text-align: center;
+}
+.area1{
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    background-color: #FFF;
+    
+}
+.fom{
+    width: 1200px;
+    height: 400px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #1ABCA0;
+
+}
+.fom fieldset{
+    cursor: pointer;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #CCC;
+}
+input{
+    display: block;
+    margin: auto;
+            
+            width: 250px;
+            height: 25px;
+        }
+        input::placeholder{
+            text-align: center;
+            color: #1ABCA0;
+        }
+        label{
+            color: #FFF;
+            font-size: 20px;
+        }
+        button{
+            width: 200px;
+            padding: 5px;
+            font-size: 20px;
+            margin-top: 30px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            background-color: #1877F2;
+            color: #FFF;
+            border-radius: 10px;
+        
+    }
+    .area2{
+        display: block;
+        width: 100vw;
+        height: 400px;
+        background-color: #1877F2;
+        color: #FFF;
+        margin-top: 10px;
+    }
+    .area2 h1{
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+        border-bottom: 1px solid #CCC;
+        ;
+        font-size: 35px;
+    
+        
+    }
+    .area2 p{
+        font-size: 30px;
+        padding: 0px 15px 0px 20px;
+        border-bottom: 1px solid #CCC;
+       
+        
+    }
+    .area3{
+        margin-top: 10px;
+        width: 100vw;
+        height: 400px;
+        background-color: #1ABCA0;
+    
+}
+.area3 h2{
+    display: block;
+    margin: auto;
+    width: 200px;
+    font-size: 35px;
+padding-top: 20px;
+    color: #FFF;
+    
+}
+.cursos{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    background-color:#CCC;
+    flex-direction: column;
+    
+}
+.cursos h2{
+    text-align: center;
+    color: #FFF;
+    font-size: 35px;
+   
+}
+.list-group{
+    text-align: center;
+    background-color: #1ABCA0;
+    margin-top: -15px;
+
+
+    
+
+}
+li{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+li:hover{
+    
+    background-color: #FFF
+    ;color: #1ABCA0;
+    
+    
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    background-color:  #1ABCA0;
+    height: 100px;
+    margin-top: -15px;
+
+}
+.icones svg{
+   cursor: pointer;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+}
+
